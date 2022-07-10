@@ -1,0 +1,30 @@
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 120px;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  position: relative;
+  top: 180px;
+  list-style: none;
+}
+
+li {
+  padding: 18px 160px;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  border-left: 2px solid #af1c1c;
+  cursor: pointer;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+li:hover {
+  transform: scale(1.02);
+}

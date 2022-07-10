@@ -1,0 +1,8 @@
+// Title = new FormControl();
+  // Amount = new FormControl();
+  // Type = new FormControl();
+
+
+  // getTitle() {
+  //   this.Title.setValue("");
+  // }
